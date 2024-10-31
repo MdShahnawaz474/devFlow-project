@@ -53,11 +53,12 @@ export default function RootLayout({
   );
 }
 
-// <SignedOut>
-{
-  /* <SignInButton />
+
+{/* <SignedOut>
+
+ <SignInButton />
 </SignedOut>
 <SignedIn>
   <UserButton />
-</SignedIn> */
-}
+</SignedIn>  */}
+
