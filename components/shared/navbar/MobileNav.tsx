@@ -14,6 +14,9 @@ import { SignedOut } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Dialog, DialogContent, DialogTitle } from '@radix-ui/react-dialog';
+
+
 const NavContent = () => {
   const pathname = usePathname();
   return (
@@ -89,7 +92,7 @@ const MobileNav = () => {
                   </SheetClose>
                   <SheetClose asChild>
                   <Link href="/sign-up">
-                  <Button className="small-medium btn-tertiary  text-dark400_light900min-h-[41px] w-full rounded-lg px-4 py-3 shadow-none">
+                  <Button className="small-medium btn-secondary  text-dark400_light900min-h-[41px] w-full rounded-lg px-4 py-3 shadow-none">
                      Sign Up
                     
                   </Button>
