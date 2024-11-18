@@ -4,8 +4,11 @@ import { Badge } from "@/components/ui/badge"
 interface Props {
     _id:string,
     name:string,
-    totalQuestion?:number,
-    showCount?: boolean
+    totalQuestion?:number
+    _id:number
+    name:string
+    totalQuestion:number
+nt?: boolean
 }
 const RenderTag =({_id, name, totalQuestion,showCount}:Props)=>{
     return (

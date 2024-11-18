@@ -12,7 +12,10 @@
     "@clerk/nextjs": "^6.0.2",
     "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-menubar": "^1.1.2",
+<<<<<<< HEAD
     "@radix-ui/react-select": "^2.1.2",
+=======
+>>>>>>> b9068f230a705fc785a5629feaf3982f6a41354c
     "@radix-ui/react-slot": "^1.1.0",
     "@tailwindcss/typography": "^0.5.15",
     "class-variance-authority": "^0.7.0",
@@ -22,7 +25,11 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "lucide-react": "^0.454.0",
+<<<<<<< HEAD
     "next": "^15.0.1",
+=======
+    "next": "15.0.1",
+>>>>>>> b9068f230a705fc785a5629feaf3982f6a41354c
     "prettier": "^3.3.3",
     "react": "19.0.0-rc-69d4b800-20241021",
     "react-dom": "19.0.0-rc-69d4b800-20241021",

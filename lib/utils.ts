@@ -41,3 +41,4 @@ export const formatAndDivideNumber = (inputNumber: number): string => {
     return inputNumber.toString();
   }
 };
+
