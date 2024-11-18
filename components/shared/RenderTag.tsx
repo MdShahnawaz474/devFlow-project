@@ -5,8 +5,8 @@ interface Props {
     _id:string,
     name:string,
     totalQuestion?:number
-    _id:number
-    name:string
+    _id:number,
+    name:string,
     totalQuestion:number
 nt?: boolean
 }
